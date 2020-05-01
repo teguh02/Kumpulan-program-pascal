@@ -1,0 +1,19 @@
+Program pXY;
+uses crt;
+var
+        X,Y,Z : integer;
+procedure Tukar (Var A,B : integer);
+var temp:integer;
+begin
+        temp:=A;
+        A:=B;
+        B:=temp;
+        end;
+begin
+        write('X = ');readln(x);
+        write('Y = ');readln(y);
+        if X < Y then
+                Tukar (X,Y);
+                Z := X - Y;
+                write('Z = ',Z);readln(z);
+                end.

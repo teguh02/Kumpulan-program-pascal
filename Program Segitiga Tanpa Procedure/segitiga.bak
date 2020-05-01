@@ -1,0 +1,14 @@
+Program luasSegitiga
+uses crt;
+Procedure segitiga;
+begin
+        writeln('Hasil');
+        end;
+procedure segitigaa (a:integer , t:integer);
+begin
+clrscr;
+write('Nilai Alas :');readln(a);
+write('Nilai Tinggi :');readln(t);
+Hasil:=(a*t)2;
+readln(Hasil);
+end.

@@ -1,0 +1,33 @@
+Program KalkulatorProsedure;
+uses crt;
+var a,b:integer;hasil:real;
+Procedure hitungjumlah;
+begin
+        hasil := a + b;
+        writeln('Jumlah dari bilangan tersebut adalah ',hasil);
+end;
+Procedure hitungkurang;
+begin
+        hasil := a-b;
+        writeln('Pengurangan dari bilangan tersebut adalah ',hasil);
+end;
+Procedure hitungbagi;
+begin
+        hasil := a/b;
+        writeln('Pembagian dari bilangan tersebut adalah ',hasil);
+end;
+Procedure hitungkali;
+begin
+        hasil := a*b;
+        writeln('Perkalian dari bilangan tersebut adalah ',hasil:6:2);
+end;
+begin
+        clrscr;
+        write('Nilai pertama : ');readln(a);
+        write('Nilai kedua : ');readln(b);
+        hitungjumlah;
+        hitungkurang;
+        hitungbagi;
+        hitungkali;
+        readln;
+end.

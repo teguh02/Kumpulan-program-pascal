@@ -1,0 +1,16 @@
+Program VolumeJJR;
+uses crt;
+var y,z:integer;
+        hasil:integer;
+        procedure volumejjr(a,t,L:integer);
+        begin
+        L:=a*t;
+        end;
+        begin
+        clrscr;
+        y:=5;
+        z:=12;
+        volumejjr(y,z,hasil);
+        writeln('Luas jajar Genjang= ',hasil);
+        readln;
+        end.
